@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ayurveda for Immunity</title>
+  <link rel="stylesheet" href="CSS/styleforabout.css">
+  <meta name="viewport" content="width =device-width, initial-scale=1"
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="banner">
+    <img src="logo.png" class="logo">
+    <div class="banner-text">
+      <h1>About</h1>
+    </div>
+  </section>
+<div id="sideNav">
+    <nav>
+    <ul>
+      <li><a href="Start.html">HOME</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+      <li><a href="WhyImmunity.html">WHY IMMUNITY</a></li>
+      <li><a href="WhyAyurveda.html">WHY NATURAL</a></li>
+      <li><a href="HomeRemedies.html">HOME REMEDIES</a></li>
+      <li><a href="Aboutingredients.html">ABOUT THE INGREDIENTS</a></li>
+    </ul>
+    </nav>
+</div>
+
+<div id="menuBtn">
+  <img src="menubtn.png" id="menuBtn">
+</div>
+
+<section id="explanation-1">
+<div class="explanation-1">
+  <h1>Improving your immune system always sounds great, but is it even possible to do so?</h1>
+  <p>The answer is yes, although it might be easier said than done, with certain lifestyle changes you’ll be able to improve your immune system and fight off illnesses quicker than ever. It is seen in many cases that having a better general health improves your immune system. In the journey to immunity there are 4 pillars of health whcih are sleep, exercise, diet and nutrition. But where do we begin? Well look no further, because here in this website you will find a few home remedies from a teen to a teen so that you can get started on your journey to better immunity!</p>
+</div>
+</section>
+
+<section id="HR">
+  <div class="img">
+    <img src="download-13.jpg">
+  </div>
+  <div class="HR-text">
+    <h1>Where to begin?</h1>
+    <p>Click here to see some home remedies to get you started on your journey to better immunity!</p>
+  </div>
+
+    <div class="HR-btn">
+      <a href="HomeRemedies.html"><span></span>Get Started</a>
+    </div>
+  </div>
+</section>
+
+<section id="I">
+  <div class="img">
+    <img src="download-12.jpg">
+  </div>
+  <div class="I-text">
+    <h1>What is in it?</h1>
+    <p>Click here to learn about what is going in your food before you start putting it in your body.</p>
+  </div>
+    <div class="I-btn">
+      <a href="Aboutingredients.html"><span></span>Learn More</a>
+    </div>
+  </div>
+</section>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right= "-250px"
+
+menuBtn.onclick = function () {
+  if(sideNav.style.right == "-250px"){
+    sideNav.style.right = "0";
+    menu.src="x.png"
+  }
+  else{
+    sideNav.style.right = "-250px";
+    menu.src="menubtn.png"
+  }
+}
+</script>
+
+<footer>
+  <div class="footer">
+  <p>@2021 by Immunocompanion.</p>
+</div>
+</footer>
+
+<section id="beneathfooter">
+</section>
+
+</body>
+</html>

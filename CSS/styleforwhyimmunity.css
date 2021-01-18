@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.logo {
+  width: 250px;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+}
+#banner{
+  background:linear-gradient(rgba(0,0,0,0.3),#498064),url(bgimg2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner-text{
+  text-align: center;
+  color:#fff;
+  padding-top: 250px;
+}
+
+.banner-text h1{
+  font-size: 100px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+#sideNav{
+  width:250px;
+  height: 100vh;
+  position: fixed;
+  right: 0px;
+  top: 0;
+  background: #498064;
+}
+
+nav ul li{
+  list-style: none;
+  margin: 50px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#menuBtn{
+  width: 50px;
+  height: 50px:auto;
+  color: #498064;
+  text-align: center;
+  position: fixed;
+  right: 30px;
+  top:20px;border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#menuBtn img{
+  width: 30px;
+  margin-top: 25px;
+}
+
+#explanation-1{
+  width: 770px;
+  padding: 60px 320px;
+}
+
+.explanation-1 p{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#image{
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#explanation-2{
+  width: 770px;
+  padding: 0px 320px;
+}
+
+.explanation-2 p{
+  font-size: 20px;
+  padding-bottom: 70px;
+  letter-spacing: 2px;
+}
+
+.footer{
+  background-color: #498064;
+}
+
+.footer p{
+  text-align: center;
+  padding: 10px;
+}
+
+#beneathfooter{
+  padding: 10px;
+}

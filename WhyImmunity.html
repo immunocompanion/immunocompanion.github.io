@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ayurveda for Immunity</title>
+  <link rel="stylesheet" href="CSS/styleforwhyimmunity.css">
+  <meta name="viewport" content="width =device-width, initial-scale=1"
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="banner">
+    <img src="logo.png" class="logo">
+    <div class="banner-text">
+      <h1>Why Immunity</h1>
+    </div>
+  </section>
+<div id="sideNav">
+    <nav>
+    <ul>
+      <li><a href="Start.html">HOME</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+      <li><a href="WhyImmunity.html">WHY IMMUNITY</a></li>
+      <li><a href="WhyAyurveda.html">WHY NATURAL</a></li>
+      <li><a href="HomeRemedies.html">HOME REMEDIES</a></li>
+      <li><a href="Aboutingredients.html">ABOUT THE INGREDIENTS</a></li>
+    </ul>
+    </nav>
+</div>
+
+<div id="menuBtn">
+  <img src="menubtn.png" id="menuBtn">
+</div>
+
+<section id="explanation-1">
+  <div class="explanation-1">
+    <p>The immune system protects us from infectious, viral and toxin-induced diseases and helps to expel foreign bodies and malignant cells within our body. In addition, the immune system is responsible for controlling immune defenses to harmless external stimuli, such as food, or against the body's own tissue. Failure to do so can contribute to the growth of allergies or autoimmune disorders.</p>
+ </div class="explanation-1">
+</section>
+
+<section id="image">
+  <div class="image">
+  <img src="immune.jpg">
+</div>
+</section>
+
+ <section id="explanation-2">
+   <div class="explanation-2">
+    <p>The significance of immunity on your body has been exaggerated by the COVID-19 virus worldwide. In many cases, our bodies develop a resistance to the diseases and illnesses around us through the use of vaccines which are specially catered to include an agent that provides active acquired immunity to a particular infectious disease. When the COVID-19 virus surfaced there was no vaccine that could be used to protect us. Through this experience, it was found that people with a stronger immune system were able to fight the virus off quicker and were more likely to recover safely. Thus the importance of the immune system was highlighted and brought to the attention of people worldwide.</p>
+  </div class="explanation-2">
+</section>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right= "-250px"
+
+menuBtn.onclick = function () {
+  if(sideNav.style.right == "-250px"){
+    sideNav.style.right = "0";
+    menu.src="x.png"
+  }
+  else{
+    sideNav.style.right = "-250px";
+    menu.src="menubtn.png"
+  }
+}
+</script>
+
+<footer>
+  <div class="footer">
+  <p>@2021 by Immunocompanion.</p>
+</div>
+</footer>
+
+<section id="beneathfooter">
+</section>
+
+</body>
+</html>

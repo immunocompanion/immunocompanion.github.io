@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ayurveda for Immunity</title>
+  <link rel="stylesheet" href="CSS/styleforwhyayurveda.css">
+  <meta name="viewport" content="width =device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="banner">
+    <img src="logo.png" class="logo">
+    <div class="banner-text">
+      <h1>Why Natural Remedies</h1>
+    </div>
+  </section>
+<div id="sideNav">
+    <nav>
+    <ul>
+      <li><a href="Start.html">HOME</a></li>
+      <li><a href="About.html">ABOUT</a></li>
+      <li><a href="WhyImmunity.html">WHY IMMUNITY</a></li>
+      <li><a href="WhyAyurveda.html">WHY NATURAL</a></li>
+      <li><a href="HomeRemedies.html">HOME REMEDIES</a></li>
+      <li><a href="Aboutingredients.html">ABOUT THE INGREDIENTS</a></li>
+    </ul>
+    </nav>
+</div>
+
+<div id="menuBtn">
+  <img src="menubtn.png" id="menuBtn">
+</div>
+
+<section id="explanation-1">
+<div class="explanation-1">
+  <h1>Using Natural and Organic Methods for your Health </h1>
+  <p>When discussing immunity and how to build up immunity the first response is usually exposure or vaccines. Although this is true, is it possible to improve immunity as a teen in situations where a vaccine isn’t available? This is where natural remedies and nutrition comes into play. It is proven that getting the right nutrients may have a beneficial effect on the gut microbiota and thus on the developing immune system. In the gastrointestinal tract, 70-80 percent of our immune cells live together with the 100 trillion gut bacteria that make up the gut microbiota. The gut is a major conduit for bacteria, toxins and allergens, and distinguishing between harmless antigens such as food and health hazards is one of the key functions of the immune system in the gastrointestinal tract. Therefore, the production of a healthy immune system depends on the formation of a healthy gut microbiota, which is directly linked with nutrition. There are certain foods that contain vitamins that are beneficial for your immune system and that is what we will be discovering here!</p>
+</div>
+</section>
+
+<section id="image">
+  <div class="image">
+  <img src="citrus.jpg">
+  <img src="download.jpg">
+  <img src="images.jpg">
+</div>
+</section>
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right= "-250px"
+
+menuBtn.onclick = function () {
+  if(sideNav.style.right == "-250px"){
+    sideNav.style.right = "0";
+    menu.src="x.png"
+  }
+  else{
+    sideNav.style.right = "-250px";
+    menu.src="menubtn.png"
+  }
+}
+</script>
+
+<footer>
+  <div class="footer">
+  <p>@2021 by Immunocompanion.</p>
+</div>
+</footer>
+
+<section id="beneathfooter">
+</section>
+
+</body>
+</html>

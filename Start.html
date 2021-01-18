@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ayurveda for Immunity</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <meta name="viewport" content="width =device-width, initial-scale=1"
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="banner">
+    <img src="logo.png" class="logo">
+    <div class="banner-text">
+      <h1>Building Up Immunity with Natural Remedies</h1>
+      <p>Improving Your Immunity Improves Your Life</p>
+      <div class="banner-btn">
+        <a href="WhyAyurveda.html"><span></span>Why Natural</a>
+        <a href="HomeRemedies.html"><span></span>Get Started</a>
+      </div>
+    </div>
+  </section>
+<div id="sideNav">
+  <nav >
+  <ul>
+    <li><a href="Start.html">HOME</a></li>
+    <li><a href="About.html">ABOUT</a></li>
+    <li><a href="WhyImmunity.html">WHY IMMUNITY</a></li>
+    <li><a href="WhyAyurveda.html">WHY NATURAL</a></li>
+    <li><a href="HomeRemedies.html">HOME REMEDIES</a></li>
+    <li><a href="Aboutingredients.html">ABOUT THE INGREDIENTS</a></li>
+  </ul>
+  </nav>
+</div>
+<div id="menuBtn">
+  <img src="menubtn.png" id="menu">
+</div>
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+sideNav.style.right= "-250px"
+
+menuBtn.onclick = function () {
+  if(sideNav.style.right == "-250px"){
+    sideNav.style.right = "0";
+    menu.src="x.png"
+  }
+  else{
+    sideNav.style.right = "-250px";
+    menu.src="menubtn.png"
+  }
+}
+</script>
+
+</body>
+</html>
